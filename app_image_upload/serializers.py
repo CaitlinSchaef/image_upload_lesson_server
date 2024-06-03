@@ -13,7 +13,7 @@ class ProfileSerializer(serializers.ModelSerializer):
 
 class ImageSerializer(serializers.ModelSerializer):
   class Meta:
-    models = Image
+    model = Image
     fields = ['id', 'title', 'image', 'created_at']
 
 
